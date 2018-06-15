@@ -1,0 +1,12 @@
+.gem {
+    height: 125px;
+    width: 125px;
+}
+body {
+    background-color: turquoise;
+    font-family: 'Merienda', cursive;
+}
+
+ul {
+    list-style-type: none;
+  }

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>    
+        <meta charset="utf-8" />
+        <title> Crystal Collector!</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+        <link rel="Stylesheet" href="assets/css/style.css">
+    </head>
+
+    <body 
+
+        <container class= "container col-12 row">
+                <section class = "col-12 row border border-white b-1 m-2">
+                        
+                        <h1>Crystal Collector</h1>
+                </section>
+                <section class = "col-8 border border-white b-1 m-2">
+                    <br>
+                    <h3>Proceed if you dare! </h3>
+                    <P>You will be given a random number at the start of the game.</P>
+                    <p>There are four crystals below.  By clicking on a crystal you will add a specific amount of points to your total score.</p>
+                    <p>You wil the game by matching your total score to the random number.  You lose the game if your total score goes above the random number</p>
+                    <p>The value of each crystal is hidden from you until you click on it.</p>
+                    <p>Each time when the game starts, the game will change the value of each crystal.</p>
+                    <h3>May the odds be ever in your favor!</h3>
+                    <br>
+
+
+                    <div class = "col-4">
+                            <h3> Scoreboard: </h3>
+                            <ul id= "clicks">
+                            </ul>
+                        </div>
+
+                    <div class = "col-8 row center container m-3 border border-white b-1">
+                        <section class = "col-8">
+                            <div>Target: <span id= "target">0</span></div>
+                            <div>Score: <span id= "score">0</span></div>
+                        </section>
+                        <div class = "col-4">
+                            <div>Wins: <span id= "wins">0</span></div>
+                            <div>Losses: <span id= "losses">0</span></div>
+                        </div>
+                        
+                    </div>
+                    
+                    <!--  Buttons -->
+                    <section class = "col-12 row">
+                        <input type="image" id= "button1" class= "gem m-1 image-fluid" src= "assets/images/aqua.jpg">
+                        <input type="image" id= "button2" class= "gem m-1 image-fluid" src= "assets/images/gold.jpg">
+                        <input type="image" id= "button3" class= "gem m-1 image-fluid" src= "assets/images/green.jpeg">
+                        <input type="image" id= "button4" class= "gem m-1 image-fluid" src= "assets/images/red.jpeg">
+                    </section> 
+                   
+                </section>
+
+        </container>
+
+        <script src= "assets/javascript/game.js"> </script>
+
+    </body>
