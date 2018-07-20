@@ -1,4 +1,4 @@
-# unit-4-game
-HW 4 jQuery
+Crystal Collector
+
 
 https://lynvierra.github.io/Crystal-Collector/
